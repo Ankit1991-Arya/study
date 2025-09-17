@@ -13,3 +13,5 @@ greet.apply(person, ['Hi', '...']); // Output: Hi, Alice...
 // Using bind
 const greetAlice = greet.bind(person, 'Hey', '!!');
 greetAlice(); // Output: Hey, Alice!!
+
+
